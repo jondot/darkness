@@ -1,6 +1,6 @@
 = darkness
 
-darkness is a Darkroom-like (http://they.misled.us/dark-room) clone, that runs on JRuby with Java Swing.
+darkness is a Darkroom/WriteRoom-like (http://they.misled.us/dark-room, http://www.hogbaysoftware.com/products/writeroom) clone, that runs on JRuby with Java Swing.
 The purpose of darkness was educational; to provide a showcase of converting an old demo app from Java to JRuby. However, it is fully usable and can become a cross platform, lightweight, alternative to those who want to write distraction free.
 
 
