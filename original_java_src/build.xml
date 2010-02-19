@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="darkroom" default="base" basedir=".">
+<property name="build" value="${basedir}/bin" />
+<property name="src"   value="${basedir}/src" />
+<property name="jarname" value="${basedir}/darkroom.jar" />
+
+
+<target name="init">
+	<mkdir dir="${build}" />
+</target>
+
+<target name="compile" depends="init">
+	<javac srcdir="${src}" destdir="${build}" />
+</target>
+	
+<target name="base" depends="compile">
+	<jar basedir="${build}" jarfile="${jarname}" manifest="Manifest.mf" />
+</target>
+
+<target name="clean">
+	<delete dir="${build}" />
+</target>
+
+</project>
